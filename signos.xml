@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+
+<signos>
+    <signo>
+        <dataInicio>21/03</dataInicio>
+        <dataFim>20/04</dataFim>
+        <signoNome>Áries</signoNome>
+        <descricao>Representado por um carneiro, cujos chifres são usados para lutar e abrir caminhos, o signo é associado à cabeça, já que o animal é também o líder do rebanho, aquele que sempre vai na frente. O carneiro é, ainda, uma representação da coragem e agressividade.</descricao>
+    </signo>
+
+    <signo>
+        <dataInicio>21/04</dataInicio>
+        <dataFim>20/5</dataFim>
+        <signoNome>Touro</signoNome>
+        <descricao>Tem como símbolo o próprio touro, animal com uma estrutura forte e poderosa. Determinado a atacar quando está com raiva ou irritado, além de ser bastante possessivo, o animal traduz as características dos taurinos típicos.</descricao>
+    </signo>
+
+    <signo>
+        <dataInicio>21/05</dataInicio>
+        <dataFim>20/6</dataFim>
+        <signoNome>Gêmeos</signoNome>
+        <descricao>O signo é astrologicamente representado pelos gêmeos Castor e Pollux, personagens das mitologias grega e romana que receberam um lugar eterno no céu mitológico dado pelo poderoso Júpiter. O símbolo astrológico é caracterizado pelo número romano “II”, uma alusão à dualidade e duplicidade.</descricao>
+    </signo>
+
+    <signo>
+        <dataInicio>21/06</dataInicio>
+        <dataFim>22/7</dataFim>
+        <signoNome>Câncer</signoNome>
+        <descricao>Representado por um caranguejo, o signo tem um símbolo que remete aos seios de uma mulher, cujo desejo de nutrir e proteger reflete o canceriano típico. O animal, com suas patas de pinças, lembra também a tendência canceriana de aferrar-se às coisas e pessoas. Ainda como o caranguejo, o nativo de Câncer esconde dentro de sua carapaça dura um interior sensível.</descricao>
+    </signo>
+
+    <signo>
+        <dataInicio>23/07</dataInicio>
+        <dataFim>22/8</dataFim>
+        <signoNome>Leão</signoNome>
+        <descricao>É representado por um leão, cujas características lembram muito os nativos do signo: força, coragem e liderança. O símbolo astrológico é alusivo à juba do leão, para remeter ao porte físico imponente, um atributo de muitos nativos de Leão e do rei da selva.</descricao>
+    </signo>
+
+    <signo>
+        <dataInicio>23/08</dataInicio>
+        <dataFim>22/9</dataFim>
+        <signoNome>Virgem</signoNome>
+        <descricao>O símbolo, uma virgem que traz uma espiga de ouro em uma mão, traduz a qualidade virginiana de plantar e trabalhar por sua colheita. Única figura feminina do zodíaco, a virgem remete também às ideias de pureza e perfeição, qualidades buscadas pelos nativos do signo. A representação astrológica lembra uma serpente enroscada, alusiva à queda do ser humano do seu estado de felicidade no paraíso por culpa deste animal.</descricao>
+    </signo>
+
+    <signo>
+        <dataInicio>23/09</dataInicio>
+        <dataFim>22/10</dataFim>
+        <signoNome>Libra</signoNome>
+        <descricao>O signo de Libra é o único que tem como símbolo um objeto inanimado: a balança. Por meio dessa imagem temos a principal característica do libriano: a constante busca por harmonia, equilíbrio e união, comparando e pesando sempre coisas e pessoas na balança.</descricao>
+    </signo>
+
+    <signo>
+        <dataInicio>23/10</dataInicio>
+        <dataFim>21/11</dataFim>
+        <signoNome>Escorpião</signoNome>
+        <descricao>O signo tem como símbolos o escorpião, como o lado instintivo, e a águia, pela capacidade de se elevar acima do instinto. A representação astrológica faz alusão ao rabo do escorpião, que se arrasta pelo solo e se esconde em lugares ocultos. Por outro lado, a águia se eleva acima das limitações terrenas para entrar em outro plano de manifestação. A dupla simbologia mostra nossa própria luta interna entre o material e o espiritual.</descricao>
+    </signo>
+
+    <signo>
+        <dataInicio>22/11</dataInicio>
+        <dataFim>21/12</dataFim>
+        <signoNome>Sagitário</signoNome>
+        <descricao>Um centauro com arco e flecha representa Sagitário. A criatura mitológica, cuja parte superior é de um homem e a inferior, de um cavalo, sugere uma dualidade: a capacidade intelectual e potencial sabedoria do homem, por um lado, e a força e velocidade do cavalo, por outro. Seu símbolo astrológico é uma flecha pronta para ser disparada, o que mostra a busca do sagitariano por transcendência.</descricao>
+    </signo>
+
+    <signo>
+        <dataInicio>22/12</dataInicio>
+        <dataFim>20/1</dataFim>
+        <signoNome>Capricórnio</signoNome>
+        <descricao>A cabra, que persevera em sua subida lenta, porém constante de uma montanha, representa o signo de Capricórnio. O animal como símbolo também mostra a persistência e ambição capricornianas. Astrologicamente, seu símbolo se assemelha a chifres retorcidos. Vale lembrar que o signo era originalmente representado pelo ser mitológico Capricornus, uma cabra com rabo de peixe.</descricao>
+    </signo>
+
+    <signo>
+        <dataInicio>21/01</dataInicio>
+        <dataFim>19/2</dataFim>
+        <signoNome>Aquário</signoNome>
+        <descricao>O signo é representado pelo aguadeiro derramando água, de forma a transmitir a ideia de que a habilidade intuitiva e de inspiração são “derramadas” a todos por igual. O símbolo astrológico original de Aquário são duas ondulações de água, para simbolizar a intuição, que, em conjunto com o elemento ar, indicam a inteligência original e criativa, características comuns aos nativos do signo.</descricao>
+    </signo>
+
+    <signo>
+        <dataInicio>20/02</dataInicio>
+        <dataFim>20/03</dataFim>
+        <signoNome>Aquário</signoNome>
+        <descricao>O símbolo mostra dois peixes que se movem em direções opostas, mas unidos por um cordão, o que remete à natureza dualista e contraditória dos piscianos. Simbolicamente, os nativos de Peixes devem decidir se seguirão o peixe que vai para baixo – e se perderão nas tendências de um mundo netuniano de álcool e drogas, sonhos e fantasias – ou o que vai para cima – e seguirão o caminho espiritual de amor e compaixão pela humanidade.</descricao>
+    </signo>
+
+
+</signos>
