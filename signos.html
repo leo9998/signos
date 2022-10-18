@@ -1,0 +1,53 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signo</title>
+</head>
+
+<body bgcolor="silver">
+    <div id="signo-content" style="width:800px; margin:auto;"></div>
+    <script>
+        const params = new Proxy(new URLSearchParams(window.location.search), {
+            get: (searchParams, prop) => searchParams.get(prop),
+        });
+        let date = params.date;
+
+        fetch('https://raw.githubusercontent.com/leo9998/signos/main/signos.xml').then((response) => {
+            response.text().then((xml) => {
+                let parser = new DOMParser();
+                let xmlDOM = parser.parseFromString(xml, 'application/xml');
+                let signos = xmlDOM.querySelectorAll('signo');
+                signos.forEach(signoXmlNode => {
+                    let date_start = signoXmlNode.children[0].innerHTML.split('/')
+                    let date_end = signoXmlNode.children[1].innerHTML.split('/')
+                    let year = date.split('-')[0]
+
+                    const check = new Date(date);
+                    const start = new Date(year,date_start[1]-1,date_start[0]);
+                    const end = new Date(year,date_end[1]-1,date_end[0]);
+
+                    if(check >= start && check <= end){
+                        let signo = signoXmlNode.children[2].innerHTML
+                        let description = signoXmlNode.children[3].innerHTML
+
+                        let node = document.createElement("h2");
+                        let textnode = document.createTextNode(signo);
+                        node.appendChild(textnode);
+                        document.getElementById("signo-content").appendChild(node)
+
+                        node = document.createElement("p");
+                        textnode = document.createTextNode(description);
+                        node.appendChild(textnode);
+                        document.getElementById("signo-content").appendChild(node)
+                    }
+                })
+            });
+        });
+
+    </script>
+</body>
+
+</html>
